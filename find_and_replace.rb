@@ -31,5 +31,3 @@ def find_and_replace (words_input = get_user_input())
     File.open("./text.txt", "w") { |file| file << text_capital }
     p File.read('./text.txt')
 end
-
-
